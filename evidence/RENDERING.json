@@ -1,0 +1,7 @@
+{
+  "reason": "Visual QA: unclipped labels, explicit failure labels, and panel proportions; no measurement changes",
+  "sha256": {
+    "report.py": "548a32771f83b7d5e82504e9d5508b05cba9acb44afc4d8737af584999f11d55",
+    "core.py": "6181fa638d0479224551df036cee7de634d893f7261bb85f1e7f3ec172ec0035"
+  }
+}

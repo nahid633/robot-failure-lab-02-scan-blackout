@@ -1,0 +1,1 @@
+Final figure renderer: fixes clipped control annotations, explicitly labels failed tasks, and adjusts panel proportions. Measurement logic is unchanged. Original pre-run renderer remains in source/report.py. Run: python3 rendering/report.py EVIDENCE_DIRECTORY

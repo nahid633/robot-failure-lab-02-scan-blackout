@@ -1,0 +1,13 @@
+{
+  "command": [
+    "ros2",
+    "launch",
+    "/tmp/robot-failure-lab-02-check-v2-20261018/source/seeded_simulation_launch.py",
+    "headless:=True",
+    "use_rviz:=False",
+    "use_composition:=False",
+    "params_file:=/tmp/robot-failure-lab-02-check-v2-20261018/params.yaml"
+  ],
+  "gazebo_seed": 101,
+  "domain": 188
+}

@@ -1,0 +1,1 @@
+Startup attempt interrupted before goal submission: behavior_server configuration did not complete; bt_navigator remained unconfigured although Gazebo and AMCL were running. No robot-task outcome or blackout occurred. See retained logs. A 60-wall-second readiness bound was added before retry.

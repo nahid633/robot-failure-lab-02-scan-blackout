@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/mnt/c/Users/maxle/OneDrive/Documents/robotics-space/startup-kb/code/robot-failure-lab/experiment02/run.py",
+    "/tmp/robot-failure-lab-02-main-v2-20261018",
+    "--repeats",
+    "3",
+    "--domain",
+    "190",
+    "--resume-infrastructure"
+  ],
+  "completed_trials": [
+    "pair-1-normal",
+    "pair-1-blackout",
+    "pair-2-blackout"
+  ],
+  "reason": "Resume only infrastructure failures before READY; never rerun a task outcome.",
+  "runner_sha256": "40d79b5ee34b15833bc138f2b65a2794d928816de88d179a889af0c56569750c"
+}

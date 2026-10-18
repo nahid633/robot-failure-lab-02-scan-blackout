@@ -1,0 +1,338 @@
+[
+  {
+    "blackout": false,
+    "duration_s": 2.0,
+    "start_sim_s": 16.521,
+    "end_sim_s": 31.572,
+    "window_start_sim_s": 19.533,
+    "window_start_task_s": 3.0120000000000005,
+    "outcome": "succeeded",
+    "elapsed_sim_s": 15.050999999999998,
+    "elapsed_wall_s": 15.058232026999917,
+    "observation_end_sim_s": 31.572,
+    "action_error_code": 0,
+    "action_error_msg": "",
+    "scans_received": 75,
+    "scans_dropped": 0,
+    "recoveries": 0,
+    "graph": {
+      "/scan": [
+        {
+          "node": "failure_lab_02_observer",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab/scan": [
+        {
+          "node": "collision_monitor",
+          "namespace": "/"
+        },
+        {
+          "node": "amcl",
+          "namespace": "/"
+        },
+        {
+          "node": "local_costmap",
+          "namespace": "/local_costmap"
+        },
+        {
+          "node": "global_costmap",
+          "namespace": "/global_costmap"
+        }
+      ]
+    },
+    "metrics": {
+      "stop_latency_s": null,
+      "zero_command_latency_s": null,
+      "resume_after_window_s": null,
+      "pre_window_speed_mps": 0.0920523030849425,
+      "window_path_m": 0.2864356889234398,
+      "window_odom_samples": 56,
+      "window_odom_max_gap_s": 0.036000000000001364
+    },
+    "injection_valid": true,
+    "trial": "pair-1-normal",
+    "pair": 1,
+    "gazebo_seed": 101
+  },
+  {
+    "blackout": true,
+    "duration_s": 2.0,
+    "start_sim_s": 16.521,
+    "end_sim_s": 20.574,
+    "window_start_sim_s": 19.533,
+    "window_start_task_s": 3.0120000000000005,
+    "outcome": "failed",
+    "elapsed_sim_s": 4.053000000000001,
+    "elapsed_wall_s": 9.013689303999968,
+    "observation_end_sim_s": 25.533,
+    "action_error_code": 102,
+    "action_error_msg": "",
+    "scans_received": 45,
+    "scans_dropped": 10,
+    "recoveries": 0,
+    "graph": {
+      "/scan": [
+        {
+          "node": "failure_lab_02_observer",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab/scan": [
+        {
+          "node": "amcl",
+          "namespace": "/"
+        },
+        {
+          "node": "local_costmap",
+          "namespace": "/local_costmap"
+        },
+        {
+          "node": "global_costmap",
+          "namespace": "/global_costmap"
+        },
+        {
+          "node": "collision_monitor",
+          "namespace": "/"
+        }
+      ]
+    },
+    "metrics": {
+      "stop_latency_s": 1.0949999999999989,
+      "zero_command_latency_s": 0.9089999999999989,
+      "resume_after_window_s": null,
+      "pre_window_speed_mps": 0.0916402043943027,
+      "window_path_m": 0.12652246724343405,
+      "window_odom_samples": 56,
+      "window_odom_max_gap_s": 0.036000000000001364
+    },
+    "injection_valid": true,
+    "trial": "pair-1-blackout",
+    "pair": 1,
+    "gazebo_seed": 101
+  },
+  {
+    "blackout": true,
+    "duration_s": 2.0,
+    "start_sim_s": 14.604,
+    "end_sim_s": 18.864,
+    "window_start_sim_s": 17.616,
+    "window_start_task_s": 3.0120000000000005,
+    "outcome": "failed",
+    "elapsed_sim_s": 4.260000000000002,
+    "elapsed_wall_s": 9.014476523999974,
+    "observation_end_sim_s": 23.616,
+    "action_error_code": 102,
+    "action_error_msg": "",
+    "scans_received": 46,
+    "scans_dropped": 10,
+    "recoveries": 0,
+    "graph": {
+      "/scan": [
+        {
+          "node": "failure_lab_02_observer",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab/scan": [
+        {
+          "node": "amcl",
+          "namespace": "/"
+        },
+        {
+          "node": "local_costmap",
+          "namespace": "/local_costmap"
+        },
+        {
+          "node": "global_costmap",
+          "namespace": "/global_costmap"
+        },
+        {
+          "node": "collision_monitor",
+          "namespace": "/"
+        }
+      ]
+    },
+    "metrics": {
+      "stop_latency_s": 1.176000000000002,
+      "zero_command_latency_s": 1.0169999999999995,
+      "resume_after_window_s": null,
+      "pre_window_speed_mps": 0.10174429720718076,
+      "window_path_m": 0.14641915149076562,
+      "window_odom_samples": 55,
+      "window_odom_max_gap_s": 0.036000000000001364
+    },
+    "injection_valid": true,
+    "trial": "pair-2-blackout",
+    "pair": 2,
+    "gazebo_seed": 102
+  },
+  {
+    "blackout": false,
+    "duration_s": 2.0,
+    "start_sim_s": 16.524,
+    "end_sim_s": 31.878,
+    "window_start_sim_s": 19.536,
+    "window_start_task_s": 3.0120000000000005,
+    "outcome": "succeeded",
+    "elapsed_sim_s": 15.354,
+    "elapsed_wall_s": 15.35929182399991,
+    "observation_end_sim_s": 31.878,
+    "action_error_code": 0,
+    "action_error_msg": "",
+    "scans_received": 77,
+    "scans_dropped": 0,
+    "recoveries": 0,
+    "graph": {
+      "/scan": [
+        {
+          "node": "failure_lab_02_observer",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab/scan": [
+        {
+          "node": "amcl",
+          "namespace": "/"
+        },
+        {
+          "node": "local_costmap",
+          "namespace": "/local_costmap"
+        },
+        {
+          "node": "global_costmap",
+          "namespace": "/global_costmap"
+        },
+        {
+          "node": "collision_monitor",
+          "namespace": "/"
+        }
+      ]
+    },
+    "metrics": {
+      "stop_latency_s": null,
+      "zero_command_latency_s": null,
+      "resume_after_window_s": null,
+      "pre_window_speed_mps": 0.0870553332719072,
+      "window_path_m": 0.28541368055034055,
+      "window_odom_samples": 56,
+      "window_odom_max_gap_s": 0.036000000000001364
+    },
+    "injection_valid": true,
+    "trial": "pair-2-normal-attempt-2",
+    "pair": 2,
+    "gazebo_seed": 102
+  },
+  {
+    "blackout": false,
+    "duration_s": 2.0,
+    "start_sim_s": 16.524,
+    "end_sim_s": 82.077,
+    "window_start_sim_s": 19.536,
+    "window_start_task_s": 3.0120000000000005,
+    "outcome": "succeeded",
+    "elapsed_sim_s": 65.553,
+    "elapsed_wall_s": 65.5684812259999,
+    "observation_end_sim_s": 82.077,
+    "action_error_code": 0,
+    "action_error_msg": "",
+    "scans_received": 328,
+    "scans_dropped": 0,
+    "recoveries": 5,
+    "graph": {
+      "/scan": [
+        {
+          "node": "failure_lab_02_observer",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab/scan": [
+        {
+          "node": "global_costmap",
+          "namespace": "/global_costmap"
+        },
+        {
+          "node": "collision_monitor",
+          "namespace": "/"
+        },
+        {
+          "node": "amcl",
+          "namespace": "/"
+        },
+        {
+          "node": "local_costmap",
+          "namespace": "/local_costmap"
+        }
+      ]
+    },
+    "metrics": {
+      "stop_latency_s": null,
+      "zero_command_latency_s": null,
+      "resume_after_window_s": null,
+      "pre_window_speed_mps": 0.0955937407907865,
+      "window_path_m": 0.29194391335919617,
+      "window_odom_samples": 56,
+      "window_odom_max_gap_s": 0.036000000000001364
+    },
+    "injection_valid": true,
+    "trial": "pair-3-normal",
+    "pair": 3,
+    "gazebo_seed": 103
+  },
+  {
+    "blackout": true,
+    "duration_s": 2.0,
+    "start_sim_s": 16.524,
+    "end_sim_s": 20.58,
+    "window_start_sim_s": 19.542,
+    "window_start_task_s": 3.0180000000000007,
+    "outcome": "failed",
+    "elapsed_sim_s": 4.055999999999997,
+    "elapsed_wall_s": 9.021531328000037,
+    "observation_end_sim_s": 25.542,
+    "action_error_code": 102,
+    "action_error_msg": "",
+    "scans_received": 45,
+    "scans_dropped": 10,
+    "recoveries": 0,
+    "graph": {
+      "/scan": [
+        {
+          "node": "failure_lab_02_observer",
+          "namespace": "/"
+        }
+      ],
+      "/failure_lab/scan": [
+        {
+          "node": "amcl",
+          "namespace": "/"
+        },
+        {
+          "node": "local_costmap",
+          "namespace": "/local_costmap"
+        },
+        {
+          "node": "global_costmap",
+          "namespace": "/global_costmap"
+        },
+        {
+          "node": "collision_monitor",
+          "namespace": "/"
+        }
+      ]
+    },
+    "metrics": {
+      "stop_latency_s": 1.0859999999999985,
+      "zero_command_latency_s": 0.8969999999999985,
+      "resume_after_window_s": null,
+      "pre_window_speed_mps": 0.08291186630232905,
+      "window_path_m": 0.13009753339078367,
+      "window_odom_samples": 56,
+      "window_odom_max_gap_s": 0.036000000000001364
+    },
+    "injection_valid": true,
+    "trial": "pair-3-blackout",
+    "pair": 3,
+    "gazebo_seed": 103
+  }
+]

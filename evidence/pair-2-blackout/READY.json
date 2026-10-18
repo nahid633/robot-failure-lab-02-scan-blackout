@@ -1,0 +1,29 @@
+{
+  "sim_time": 14.604,
+  "graph": {
+    "/scan": [
+      {
+        "node": "failure_lab_02_observer",
+        "namespace": "/"
+      }
+    ],
+    "/failure_lab/scan": [
+      {
+        "node": "amcl",
+        "namespace": "/"
+      },
+      {
+        "node": "local_costmap",
+        "namespace": "/local_costmap"
+      },
+      {
+        "node": "global_costmap",
+        "namespace": "/global_costmap"
+      },
+      {
+        "node": "collision_monitor",
+        "namespace": "/"
+      }
+    ]
+  }
+}

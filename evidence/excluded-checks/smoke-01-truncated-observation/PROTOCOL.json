@@ -1,0 +1,32 @@
+{
+  "experiment": "Robot Failure Lab 02",
+  "repeats": 1,
+  "trigger": ">=3 sim seconds since goal submission, translating >=0.05 m/s for >=0.3 s, fresh odometry",
+  "change": "Drop newly received scans for [trigger, trigger+2s); no buffering or replay. Control forwards all scans.",
+  "motion_stop": "Odom speed <=0.01 m/s and |yaw rate| <=0.03 rad/s for >=0.3s; samples <=0.15s apart",
+  "motion_resume": "After a measured stop, odom translation >=0.05 m/s for >=0.3s after window ends",
+  "task_timeout_sim_s": 90,
+  "seeds": "Gazebo seed 101+repeat_index, matched within each pair; AMCL and scheduling NOT controlled. Not deterministic pairs.",
+  "order": "Normal then blackout for odd pairs; blackout then normal for even pairs",
+  "collision_monitor_source_timeout_s": 1.0,
+  "scope": "Exploratory static simulation. No collision/obstacle-appearance metric, physical validation, or Vektor integration.",
+  "command": [
+    "/mnt/c/Users/maxle/OneDrive/Documents/robotics-space/startup-kb/code/robot-failure-lab/experiment02/run.py",
+    "/tmp/robot-failure-lab-02-smoke-20261018",
+    "--repeats",
+    "1",
+    "--domain",
+    "188"
+  ],
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "platform": "6.6.87.2-microsoft-standard-WSL2",
+  "source_sha256": {
+    "trial.py": "0ce12fe0ae9e55b4d617fee16056c36229f2347a59f9e37a511b66f016248f7f",
+    "upstream_tb3_simulation_launch.txt": "cb65906827c9897100512d64ee1ac7537fe859e3fc29fcc96aec8119bd7bebf2",
+    "core.py": "6181fa638d0479224551df036cee7de634d893f7261bb85f1e7f3ec172ec0035",
+    "report.py": "42294ed99276c85fa1c291a67f83a4a4e4a5672d11e9e95ef10cfb1ebdf418c1",
+    "seeded_simulation_launch.py": "6b4443dd2ba90821fb44bbae45ef42ab8d4df34aaefb97af4b8a810d1fc95aca",
+    "run.py": "027741893d13545abda2dfa207da41677b89418e8b8c3b389c3392a2417afabb",
+    "test_core.py": "42b547e2a3535671a4f6ccfd803b63d1a7d108da9637c6d32bf4f85f4691a606"
+  }
+}

@@ -1,0 +1,775 @@
+[INFO] [launch]: All log files can be found below /home/maxle/.ros/log/2026-10-18-20-56-46-318495-DESKTOP-EL6TVHV-5803
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [xacro-1]: process started with pid [5807]
+[INFO] [parameter_bridge-2]: process started with pid [5808]
+[INFO] [create-3]: process started with pid [5809]
+[INFO] [gz-4]: process started with pid [5810]
+[INFO] [robot_state_publisher-5]: process started with pid [5811]
+[INFO] [map_server-6]: process started with pid [5812]
+[INFO] [amcl-7]: process started with pid [5813]
+[INFO] [lifecycle_manager-8]: process started with pid [5814]
+[INFO] [controller_server-9]: process started with pid [5815]
+[INFO] [smoother_server-10]: process started with pid [5860]
+[INFO] [planner_server-11]: process started with pid [5864]
+[INFO] [route_server-12]: process started with pid [5865]
+[INFO] [behavior_server-13]: process started with pid [5868]
+[INFO] [bt_navigator-14]: process started with pid [5881]
+[INFO] [waypoint_follower-15]: process started with pid [5887]
+[INFO] [velocity_smoother-16]: process started with pid [5894]
+[INFO] [collision_monitor-17]: process started with pid [5895]
+[INFO] [opennav_docking-18]: process started with pid [5896]
+[INFO] [lifecycle_manager-19]: process started with pid [5898]
+[create-3] [INFO] [1792349806.786163794] [ros_gz_sim]: Requesting list of world names.
+[robot_state_publisher-5] [INFO] [1792349806.780279536] [robot_state_publisher]: Robot initialized
+[lifecycle_manager-8] [INFO] [1792349806.790050099] [lifecycle_manager_localization]: Creating
+[lifecycle_manager-8] [INFO] [1792349806.797997373] [lifecycle_manager_localization]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[controller_server-9] [INFO] [1792349806.810286064] [controller_server]: 
+[controller_server-9] 	controller_server lifecycle node launched. 
+[controller_server-9] 	Waiting on external lifecycle transitions to activate
+[controller_server-9] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-9] [INFO] [1792349806.813785265] [controller_server]: Creating controller server
+[amcl-7] [INFO] [1792349806.815242813] [amcl]: 
+[amcl-7] 	amcl lifecycle node launched. 
+[amcl-7] 	Waiting on external lifecycle transitions to activate
+[amcl-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[amcl-7] [INFO] [1792349806.815622115] [amcl]: Creating
+[controller_server-9] [INFO] [1792349806.835947030] [local_costmap.local_costmap]: 
+[controller_server-9] 	local_costmap lifecycle node launched. 
+[controller_server-9] 	Waiting on external lifecycle transitions to activate
+[controller_server-9] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-9] [INFO] [1792349806.836361874] [local_costmap.local_costmap]: Creating Costmap
+[map_server-6] [INFO] [1792349806.838591325] [map_server]: 
+[map_server-6] 	map_server lifecycle node launched. 
+[map_server-6] 	Waiting on external lifecycle transitions to activate
+[map_server-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_server-6] [INFO] [1792349806.838711135] [map_server]: Creating
+[velocity_smoother-16] [INFO] [1792349806.856219416] [velocity_smoother]: 
+[velocity_smoother-16] 	velocity_smoother lifecycle node launched. 
+[velocity_smoother-16] 	Waiting on external lifecycle transitions to activate
+[velocity_smoother-16] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[opennav_docking-18] [INFO] [1792349806.878791683] [docking_server]: 
+[opennav_docking-18] 	docking_server lifecycle node launched. 
+[opennav_docking-18] 	Waiting on external lifecycle transitions to activate
+[opennav_docking-18] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[opennav_docking-18] [INFO] [1792349806.878902297] [docking_server]: Creating docking_server
+[INFO] [xacro-1]: process has finished cleanly [pid 5807]
+[waypoint_follower-15] [INFO] [1792349805.039502985] [waypoint_follower]: 
+[waypoint_follower-15] 	waypoint_follower lifecycle node launched. 
+[waypoint_follower-15] 	Waiting on external lifecycle transitions to activate
+[waypoint_follower-15] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[waypoint_follower-15] [INFO] [1792349805.040016221] [waypoint_follower]: Creating
+[behavior_server-13] [INFO] [1792349805.056287199] [behavior_server]: 
+[behavior_server-13] 	behavior_server lifecycle node launched. 
+[behavior_server-13] 	Waiting on external lifecycle transitions to activate
+[behavior_server-13] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[lifecycle_manager-19] [INFO] [1792349805.061544527] [lifecycle_manager_navigation]: Creating
+[lifecycle_manager-8] [INFO] [1792349805.063388439] [lifecycle_manager_localization]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-8] [INFO] [1792349805.063428595] [lifecycle_manager_localization]: [34m[1mConfiguring map_server[0m[0m
+[lifecycle_manager-19] [INFO] [1792349805.066308275] [lifecycle_manager_navigation]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[map_server-6] [INFO] [1792349805.072374078] [map_server]: Configuring
+[map_server-6] [INFO] [1792349805.072435934] [map_io]: Loading yaml file: /opt/ros/jazzy/share/nav2_bringup/maps/tb3_sandbox.yaml
+[map_server-6] [INFO] [1792349805.072707508] [map_io]: resolution: 0.05
+[map_server-6] [INFO] [1792349805.072721243] [map_io]: origin[0]: -10
+[map_server-6] [INFO] [1792349805.072728267] [map_io]: origin[1]: -10
+[map_server-6] [INFO] [1792349805.072733897] [map_io]: origin[2]: 0
+[map_server-6] [INFO] [1792349805.072739711] [map_io]: free_thresh: 0.196
+[map_server-6] [INFO] [1792349805.072745146] [map_io]: occupied_thresh: 0.65
+[map_server-6] [INFO] [1792349805.072751598] [map_io]: mode: trinary
+[map_server-6] [INFO] [1792349805.072756936] [map_io]: negate: 0
+[map_server-6] [INFO] [1792349805.072969345] [map_io]: Loading image_file: /opt/ros/jazzy/share/nav2_bringup/maps/tb3_sandbox.pgm
+[planner_server-11] [INFO] [1792349805.075905536] [planner_server]: 
+[planner_server-11] 	planner_server lifecycle node launched. 
+[planner_server-11] 	Waiting on external lifecycle transitions to activate
+[planner_server-11] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-11] [INFO] [1792349805.077085924] [planner_server]: Creating
+[map_server-6] [INFO] [1792349805.079286213] [map_io]: Read map /opt/ros/jazzy/share/nav2_bringup/maps/tb3_sandbox.pgm: 384 X 384 map @ 0.05 m/cell
+[collision_monitor-17] [INFO] [1792349805.092706348] [collision_monitor]: 
+[collision_monitor-17] 	collision_monitor lifecycle node launched. 
+[collision_monitor-17] 	Waiting on external lifecycle transitions to activate
+[collision_monitor-17] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[lifecycle_manager-8] [INFO] [1792349805.096418293] [lifecycle_manager_localization]: [34m[1mConfiguring amcl[0m[0m
+[amcl-7] [INFO] [1792349805.096730533] [amcl]: Configuring
+[amcl-7] [INFO] [1792349805.096799045] [amcl]: initTransforms
+[bt_navigator-14] [INFO] [1792349805.100145753] [bt_navigator]: 
+[bt_navigator-14] 	bt_navigator lifecycle node launched. 
+[bt_navigator-14] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-14] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-14] [INFO] [1792349805.101717400] [bt_navigator]: Creating
+[smoother_server-10] [INFO] [1792349805.109054873] [smoother_server]: 
+[smoother_server-10] 	smoother_server lifecycle node launched. 
+[smoother_server-10] 	Waiting on external lifecycle transitions to activate
+[smoother_server-10] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[smoother_server-10] [INFO] [1792349805.111090690] [smoother_server]: Creating smoother server
+[amcl-7] [INFO] [1792349805.118581405] [amcl]: initPubSub
+[route_server-12] [INFO] [1792349805.122978263] [route_server]: 
+[route_server-12] 	route_server lifecycle node launched. 
+[route_server-12] 	Waiting on external lifecycle transitions to activate
+[route_server-12] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[amcl-7] [INFO] [1792349805.128824162] [amcl]: Subscribed to map topic.
+[planner_server-11] [INFO] [1792349805.129843428] [global_costmap.global_costmap]: 
+[planner_server-11] 	global_costmap lifecycle node launched. 
+[planner_server-11] 	Waiting on external lifecycle transitions to activate
+[planner_server-11] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-11] [INFO] [1792349805.130343329] [global_costmap.global_costmap]: Creating Costmap
+[lifecycle_manager-8] [INFO] [1792349805.134442028] [lifecycle_manager_localization]: [34m[1mActivating map_server[0m[0m
+[map_server-6] [INFO] [1792349805.136920457] [map_server]: Activating
+[map_server-6] [INFO] [1792349805.137386491] [map_server]: Creating bond (map_server) to lifecycle manager.
+[amcl-7] [INFO] [1792349805.137692818] [amcl]: Received a 384 X 384 map @ 0.050 m/pix
+[lifecycle_manager-8] [INFO] [1792349805.243745829] [lifecycle_manager_localization]: Server map_server connected with bond.
+[lifecycle_manager-8] [INFO] [1792349805.243792124] [lifecycle_manager_localization]: [34m[1mActivating amcl[0m[0m
+[amcl-7] [INFO] [1792349805.244139872] [amcl]: Activating
+[amcl-7] [INFO] [1792349805.244176030] [amcl]: Creating bond (amcl) to lifecycle manager.
+[lifecycle_manager-19] [INFO] [1792349805.302945692] [lifecycle_manager_navigation]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-19] [INFO] [1792349805.302998730] [lifecycle_manager_navigation]: [34m[1mConfiguring controller_server[0m[0m
+[controller_server-9] [INFO] [1792349805.303279329] [controller_server]: Configuring controller interface
+[controller_server-9] [INFO] [1792349805.303298975] [controller_server]: getting progress checker plugins..
+[controller_server-9] [INFO] [1792349805.303676116] [controller_server]: getting goal checker plugins..
+[controller_server-9] [INFO] [1792349805.303988581] [controller_server]: Controller frequency set to 20.0000Hz
+[controller_server-9] [INFO] [1792349805.304031893] [local_costmap.local_costmap]: Configuring
+[controller_server-9] [INFO] [1792349805.315064145] [local_costmap.local_costmap]: Using plugin "voxel_layer"
+[controller_server-9] [INFO] [1792349805.319511727] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[controller_server-9] [INFO] [1792349805.335305821] [local_costmap.local_costmap]: Initialized plugin "voxel_layer"
+[controller_server-9] [INFO] [1792349805.335346798] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[controller_server-9] [INFO] [1792349805.336747786] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[lifecycle_manager-8] [INFO] [1792349805.350031198] [lifecycle_manager_localization]: Server amcl connected with bond.
+[lifecycle_manager-8] [INFO] [1792349805.350083630] [lifecycle_manager_localization]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-8] [INFO] [1792349805.350094588] [lifecycle_manager_localization]: [34m[1mCreating bond timer...[0m[0m
+[controller_server-9] [INFO] [1792349805.359647079] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[controller_server-9] [INFO] [1792349805.360075032] [controller_server]: Controller Server has progress_checker  progress checkers available.
+[controller_server-9] [INFO] [1792349805.360617305] [controller_server]: Created goal checker : general_goal_checker of type nav2_controller::SimpleGoalChecker
+[controller_server-9] [INFO] [1792349805.361635824] [controller_server]: Controller Server has general_goal_checker  goal checkers available.
+[controller_server-9] [INFO] [1792349805.362992754] [controller_server]: Created controller : FollowPath of type nav2_mppi_controller::MPPIController
+[controller_server-9] [INFO] [1792349805.367978475] [controller_server]: Controller period is equal to model dt. Control sequence shifting is ON
+[controller_server-9] [INFO] [1792349805.369971770] [controller_server]: ConstraintCritic instantiated with 1 power and 4.000000 weight.
+[controller_server-9] [INFO] [1792349805.370002308] [controller_server]: Critic loaded : mppi::critics::ConstraintCritic
+[controller_server-9] [INFO] [1792349805.372578637] [controller_server]: InflationCostCritic instantiated with 1 power and 300.000000 / 0.015000 weights. Critic will collision check based on circular cost.
+[controller_server-9] [INFO] [1792349805.372623019] [controller_server]: Critic loaded : mppi::critics::CostCritic
+[controller_server-9] [INFO] [1792349805.373583043] [controller_server]: GoalCritic instantiated with 1 power and 5.000000 weight.
+[controller_server-9] [INFO] [1792349805.373620239] [controller_server]: Critic loaded : mppi::critics::GoalCritic
+[controller_server-9] [INFO] [1792349805.374807164] [controller_server]: GoalAngleCritic instantiated with 1 power, 3.000000 weight, 0.500000 angular threshold and symmetric_yaw_tolerance disabled
+[controller_server-9] [INFO] [1792349805.374834785] [controller_server]: Critic loaded : mppi::critics::GoalAngleCritic
+[controller_server-9] [INFO] [1792349805.376785372] [controller_server]: ReferenceTrajectoryCritic instantiated with 1 power and 14.000000 weight
+[controller_server-9] [INFO] [1792349805.376812604] [controller_server]: Critic loaded : mppi::critics::PathAlignCritic
+[controller_server-9] [INFO] [1792349805.377981353] [controller_server]: Critic loaded : mppi::critics::PathFollowCritic
+[controller_server-9] [INFO] [1792349805.379666580] [controller_server]: PathAngleCritic instantiated with 1 power and 2.000000 weight. Mode set to: Forward Preference
+[controller_server-9] [INFO] [1792349805.379704402] [controller_server]: Critic loaded : mppi::critics::PathAngleCritic
+[controller_server-9] [INFO] [1792349805.380251073] [controller_server]: PreferForwardCritic instantiated with 1 power and 5.000000 weight.
+[controller_server-9] [INFO] [1792349805.380272103] [controller_server]: Critic loaded : mppi::critics::PreferForwardCritic
+[controller_server-9] [INFO] [1792349805.384717701] [controller_server]: Optimizer reset
+[controller_server-9] [INFO] [1792349805.391477498] [MPPIController]: Configured MPPI Controller: FollowPath
+[controller_server-9] [INFO] [1792349805.391571297] [controller_server]: Controller Server has FollowPath  controllers available.
+[lifecycle_manager-19] [INFO] [1792349805.403456263] [lifecycle_manager_navigation]: [34m[1mConfiguring smoother_server[0m[0m
+[create-3] [INFO] [1792349805.547025309] [ros_gz_sim]: Entity creation successful.
+[parameter_bridge-2] [INFO] [1792349805.947539557] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/clock (gz.msgs.Clock) -> /clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+[parameter_bridge-2] [INFO] [1792349805.950329959] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/joint_states (gz.msgs.Model) -> joint_states (sensor_msgs/msg/JointState)] (Lazy 0)
+[parameter_bridge-2] [INFO] [1792349805.955237615] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/odom (gz.msgs.Odometry) -> odom (nav_msgs/msg/Odometry)] (Lazy 0)
+[parameter_bridge-2] [INFO] [1792349805.957990401] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/tf (gz.msgs.Pose_V) -> tf (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[parameter_bridge-2] [INFO] [1792349805.961209339] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/imu (gz.msgs.IMU) -> imu (sensor_msgs/msg/Imu)] (Lazy 0)
+[parameter_bridge-2] [INFO] [1792349805.963499689] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/scan (gz.msgs.LaserScan) -> scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[parameter_bridge-2] [INFO] [1792349805.965759554] [ros_gz_bridge]: Creating ROS->GZ Bridge: [cmd_vel (geometry_msgs/msg/Twist) -> /cmd_vel (gz.msgs.Twist)] (Lazy 0)
+[smoother_server-10] [INFO] [1792349806.219538311] [smoother_server]: Configuring smoother server
+[smoother_server-10] [INFO] [1792349806.234936743] [smoother_server]: Created smoother : simple_smoother of type nav2_smoother::SimpleSmoother
+[smoother_server-10] [INFO] [1792349806.236194665] [smoother_server]: Smoother Server has simple_smoother  smoothers available.
+[lifecycle_manager-19] [INFO] [1792349806.244666801] [lifecycle_manager_navigation]: [34m[1mConfiguring planner_server[0m[0m
+[gz-4] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="turtlebot3_waffle"]/link[@name="imu_link"]/sensor[@name="tb3_imu"]/gz_frame_id:<data-string>:L49]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+[gz-4] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="turtlebot3_waffle"]/link[@name="base_scan"]/sensor[@name="hls_lfcd_lds"]/gz_frame_id:<data-string>:L134]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+[gz-4] [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="turtlebot3_waffle"]/link[@name="camera_link"]/sensor[@name="intel_realsense_r200_depth"]/gz_frame_id:<data-string>:L361]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+[amcl-7] [INFO] [1792349814.795733803] [amcl]: createLaserObject
+[amcl-7] [WARN] [1792349814.806876939] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-7] [INFO] [1792349816.765252165] [amcl]: initialPoseReceived
+[amcl-7] [WARN] [1792349816.765364961] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 8.988000 but the latest data is at time 8.964000, when looking up transform from frame [base_footprint] to frame [odom])
+[amcl-7] [INFO] [1792349816.765378773] [amcl]: Setting pose (8.988000): -2.000 -0.500 0.000
+[amcl-7] [INFO] [1792349816.766715246] [amcl]: initialPoseReceived
+[amcl-7] [WARN] [1792349816.766780527] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 8.991000 but the latest data is at time 8.964000, when looking up transform from frame [base_footprint] to frame [odom])
+[amcl-7] [INFO] [1792349816.766795509] [amcl]: Setting pose (8.991000): -2.000 -0.500 0.000
+[amcl-7] [INFO] [1792349816.768302815] [amcl]: initialPoseReceived
+[amcl-7] [WARN] [1792349816.768352951] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 8.991000 but the latest data is at time 8.964000, when looking up transform from frame [base_footprint] to frame [odom])
+[amcl-7] [INFO] [1792349816.768380099] [amcl]: Setting pose (8.991000): -2.000 -0.500 0.000
+[amcl-7] [INFO] [1792349816.770450745] [amcl]: initialPoseReceived
+[amcl-7] [WARN] [1792349816.770504001] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 8.994000 but the latest data is at time 8.964000, when looking up transform from frame [base_footprint] to frame [odom])
+[amcl-7] [INFO] [1792349816.770513339] [amcl]: Setting pose (8.994000): -2.000 -0.500 0.000
+[amcl-7] [INFO] [1792349816.771822100] [amcl]: initialPoseReceived
+[amcl-7] [WARN] [1792349816.771872236] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 8.994000 but the latest data is at time 8.964000, when looking up transform from frame [base_footprint] to frame [odom])
+[amcl-7] [INFO] [1792349816.771881455] [amcl]: Setting pose (8.994000): -2.000 -0.500 0.000
+[amcl-7] [INFO] [1792349816.773740857] [amcl]: initialPoseReceived
+[amcl-7] [WARN] [1792349816.773790441] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 8.997000 but the latest data is at time 8.964000, when looking up transform from frame [base_footprint] to frame [odom])
+[amcl-7] [INFO] [1792349816.773799205] [amcl]: Setting pose (8.997000): -2.000 -0.500 0.000
+[amcl-7] [INFO] [1792349816.777131843] [amcl]: initialPoseReceived
+[amcl-7] [INFO] [1792349816.777177646] [amcl]: Setting pose (9.000000): -2.000 -0.500 0.000
+[amcl-7] [INFO] [1792349816.779933959] [amcl]: initialPoseReceived
+[amcl-7] [WARN] [1792349816.779985135] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 9.003000 but the latest data is at time 9.000000, when looking up transform from frame [base_footprint] to frame [odom])
+[amcl-7] [INFO] [1792349816.779994798] [amcl]: Setting pose (9.003000): -2.000 -0.500 0.000
+[amcl-7] [INFO] [1792349816.782937950] [amcl]: initialPoseReceived
+[amcl-7] [WARN] [1792349816.783071605] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 9.006000 but the latest data is at time 9.000000, when looking up transform from frame [base_footprint] to frame [odom])
+[amcl-7] [INFO] [1792349816.783089177] [amcl]: Setting pose (9.006000): -2.000 -0.500 0.000
+[amcl-7] [INFO] [1792349816.791281548] [amcl]: initialPoseReceived
+[amcl-7] [WARN] [1792349816.791353589] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation at time 9.015000, but only time 10.000000 is in the buffer, when looking up transform from frame [base_footprint] to frame [odom])
+[amcl-7] [INFO] [1792349816.791363577] [amcl]: Setting pose (9.015000): -2.000 -0.500 0.000
+[amcl-7] [INFO] [1792349816.791726977] [amcl]: initialPoseReceived
+[amcl-7] [WARN] [1792349816.791754180] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation at time 9.015000, but only time 10.000000 is in the buffer, when looking up transform from frame [base_footprint] to frame [odom])
+[amcl-7] [INFO] [1792349816.791783906] [amcl]: Setting pose (9.015000): -2.000 -0.500 0.000
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[velocity_smoother-16] [INFO] [1792349868.726253805] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[velocity_smoother-16] [INFO] [1792349868.726339254] [velocity_smoother]: Running Nav2 LifecycleNode rcl preshutdown (velocity_smoother)
+[velocity_smoother-16] [INFO] [1792349868.726378153] [velocity_smoother]: Destroying bond (velocity_smoother) to lifecycle manager.
+[ERROR] [create-3]: process has died [pid 5809, exit code -2, cmd '/opt/ros/jazzy/lib/ros_gz_sim/create -name turtlebot3_waffle -string <?xml version="1.0" ?>
+<!-- =================================================================================== -->
+<!-- |    This document was autogenerated by xacro from /opt/ros/jazzy/share/nav2_minimal_tb3_sim/urdf/gz_waffle.sdf.xacro | -->
+<!-- |    EDITING THIS FILE BY HAND IS NOT RECOMMENDED                                 | -->
+<!-- =================================================================================== -->
+<sdf version="1.6">
+  <model name="turtlebot3_waffle">
+    <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+    <link name="base_footprint"/>
+    <link name="base_link">
+      <inertial>
+        <pose>-0.064 0 0.048 0 0 0</pose>
+        <inertia>
+          <ixx>0.001</ixx>
+          <ixy>0.000</ixy>
+          <ixz>0.000</ixz>
+          <iyy>0.001</iyy>
+          <iyz>0.000</iyz>
+          <izz>0.001</izz>
+        </inertia>
+        <mass>1.0</mass>
+      </inertial>
+      <collision name="base_collision">
+        <pose>-0.064 0 0.048 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.265 0.265 0.089</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="base_visual">
+        <pose>-0.064 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>package://nav2_minimal_tb3_sim/models/turtlebot3_model/meshes/waffle_base.dae</uri>
+            <scale>0.001 0.001 0.001</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 1</diffuse>
+        </material>
+      </visual>
+    </link>
+    <link name="imu_link">
+      <sensor name="tb3_imu" type="imu">
+        <always_on>true</always_on>
+        <update_rate>200</update_rate>
+        <topic>/imu</topic>
+        <gz_frame_id>imu_link</gz_frame_id>
+        <imu>
+          <angular_velocity>
+            <x>
+              <noise type="gaussian">
+                <mean>0.0</mean>
+                <stddev>2e-4</stddev>
+              </noise>
+            </x>
+            <y>
+              <noise type="gaussian">
+                <mean>0.0</mean>
+                <stddev>2e-4</stddev>
+              </noise>
+            </y>
+            <z>
+              <noise type="gaussian">
+                <mean>0.0</mean>
+                <stddev>2e-4</stddev>
+              </noise>
+            </z>
+          </angular_velocity>
+          <linear_acceleration>
+            <x>
+              <noise type="gaussian">
+                <mean>0.0</mean>
+                <stddev>1.7e-2</stddev>
+              </noise>
+            </x>
+            <y>
+              <noise type="gaussian">
+                <mean>0.0</mean>
+                <stddev>1.7e-2</stddev>
+              </noise>
+            </y>
+            <z>
+              <noise type="gaussian">
+                <mean>0.0</mean>
+                <stddev>1.7e-2</stddev>
+              </noise>
+            </z>
+          </linear_acceleration>
+        </imu>
+      </sensor>
+    </link>
+    <link name="base_scan">
+      <inertial>
+        <pose>-0.064 0 0.121 0 0 0</pose>
+        <inertia>
+          <ixx>0.001</ixx>
+          <ixy>0.000</ixy>
+          <ixz>0.000</ixz>
+          <iyy>0.001</iyy>
+          <iyz>0.000</iyz>
+          <izz>0.001</izz>
+        </inertia>
+        <mass>0.125</mass>
+      </inertial>
+      <collision name="lidar_sensor_collision">
+        <pose>-0.052 0 0.111 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.0508</radius>
+            <length>0.055</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="lidar_sensor_visual">
+        <pose>-0.064 0 0.121 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>package://nav2_minimal_tb3_sim/models/turtlebot3_model/meshes/lds.dae</uri>
+            <scale>0.001 0.001 0.001</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 1</diffuse>
+        </material>
+      </visual>
+      <sensor name="hls_lfcd_lds" type="gpu_lidar">
+        <always_on>true</always_on>
+        <visualize>true</visualize>
+        <pose>-0.064 0 0.15 0 0 0</pose>
+        <update_rate>5</update_rate>
+        <topic>/scan</topic>
+        <gz_frame_id>base_scan</gz_frame_id>
+        <ray>
+          <scan>
+            <horizontal>
+              <samples>360</samples>
+              <resolution>1.000000</resolution>
+              <min_angle>0.000000</min_angle>
+              <max_angle>6.280000</max_angle>
+            </horizontal>
+          </scan>
+          <range>
+            <min>0.00001</min>
+            <max>20.0</max>
+            <resolution>0.015000</resolution>
+          </range>
+          <noise>
+            <type>gaussian</type>
+            <mean>0.0</mean>
+            <stddev>0.01</stddev>
+          </noise>
+        </ray>
+      </sensor>
+    </link>
+    <link name="wheel_left_link">
+      <inertial>
+        <pose>0.0 0.144 0.023 -1.57 0 0</pose>
+        <inertia>
+          <ixx>0.001</ixx>
+          <ixy>0.000</ixy>
+          <ixz>0.000</ixz>
+          <iyy>0.001</iyy>
+          <iyz>0.000</iyz>
+          <izz>0.001</izz>
+        </inertia>
+        <mass>0.1</mass>
+      </inertial>
+      <collision name="wheel_left_collision">
+        <pose>0.0 0.144 0.023 -1.57 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.033</radius>
+            <length>0.018</length>
+          </cylinder>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1</mu>
+              <mu2>1</mu2>
+              <slip1>0.035</slip1>
+              <slip2>0</slip2>
+              <fdir1>0 0 1</fdir1>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <soft_cfm>0</soft_cfm>
+              <soft_erp>0.2</soft_erp>
+              <kp>1e+5</kp>
+              <kd>1</kd>
+              <max_vel>0.01</max_vel>
+              <min_depth>0.001</min_depth>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="wheel_left_visual">
+        <pose>0.0 0.144 0.023 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>package://nav2_minimal_tb3_sim/models/turtlebot3_model/meshes/tire.dae</uri>
+            <scale>0.001 0.001 0.001</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 1</diffuse>
+        </material>
+      </visual>
+    </link>
+    <link name="wheel_right_link">
+      <inertial>
+        <pose>0.0 -0.144 0.023 -1.57 0 0</pose>
+        <inertia>
+          <ixx>0.001</ixx>
+          <ixy>0.000</ixy>
+          <ixz>0.000</ixz>
+          <iyy>0.001</iyy>
+          <iyz>0.000</iyz>
+          <izz>0.001</izz>
+        </inertia>
+        <mass>0.1</mass>
+      </inertial>
+      <collision name="wheel_right_collision">
+        <pose>0.0 -0.144 0.023 -1.57 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.033</radius>
+            <length>0.018</length>
+          </cylinder>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1</mu>
+              <mu2>1</mu2>
+              <slip1>0.035</slip1>
+              <slip2>0</slip2>
+              <fdir1>0 0 1</fdir1>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <soft_cfm>0</soft_cfm>
+              <soft_erp>0.2</soft_erp>
+              <kp>1e+5</kp>
+              <kd>1</kd>
+              <max_vel>0.01</max_vel>
+              <min_depth>0.001</min_depth>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="wheel_right_visual">
+        <pose>0.0 -0.144 0.023 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>package://nav2_minimal_tb3_sim/models/turtlebot3_model/meshes/tire.dae</uri>
+            <scale>0.001 0.001 0.001</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 1</diffuse>
+        </material>
+      </visual>
+    </link>
+    <link name="caster_back_right_link">
+      <pose>-0.177 -0.064 -0.004 0 0 0</pose>
+      <inertial>
+        <mass>0.001</mass>
+        <inertia>
+          <ixx>0.00001</ixx>
+          <ixy>0.000</ixy>
+          <ixz>0.000</ixz>
+          <iyy>0.00001</iyy>
+          <iyz>0.000</iyz>
+          <izz>0.00001</izz>
+        </inertia>
+      </inertial>
+      <collision name="collision">
+        <geometry>
+          <sphere>
+            <radius>0.005000</radius>
+          </sphere>
+        </geometry>
+        <surface>
+          <contact>
+            <ode>
+              <soft_cfm>0</soft_cfm>
+              <soft_erp>0.2</soft_erp>
+              <kp>1e+5</kp>
+              <kd>1</kd>
+              <max_vel>0.01</max_vel>
+              <min_depth>0.001</min_depth>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+    </link>
+    <link name="caster_back_left_link">
+      <pose>-0.177 0.064 -0.004 0 0 0</pose>
+      <inertial>
+        <mass>0.001</mass>
+        <inertia>
+          <ixx>0.00001</ixx>
+          <ixy>0.000</ixy>
+          <ixz>0.000</ixz>
+          <iyy>0.00001</iyy>
+          <iyz>0.000</iyz>
+          <izz>0.00001</izz>
+        </inertia>
+      </inertial>
+      <collision name="collision">
+        <geometry>
+          <sphere>
+            <radius>0.005000</radius>
+          </sphere>
+        </geometry>
+        <surface>
+          <contact>
+            <ode>
+              <soft_cfm>0</soft_cfm>
+              <soft_erp>0.2</soft_erp>
+              <kp>1e+5</kp>
+              <kd>1</kd>
+              <max_vel>0.01</max_vel>
+              <min_depth>0.001</min_depth>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+    </link>
+    <link name="camera_link">
+      <inertial>
+        <pose>0.069 -0.047 0.107 0 0 0</pose>
+        <inertia>
+          <ixx>0.001</ixx>
+          <ixy>0.000</ixy>
+          <ixz>0.000</ixz>
+          <iyy>0.001</iyy>
+          <iyz>0.000</iyz>
+          <izz>0.001</izz>
+        </inertia>
+        <mass>0.035</mass>
+      </inertial>
+      <collision name="collision">
+        <pose>0 0.047 -0.005 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.008 0.130 0.022</size>
+          </box>
+        </geometry>
+      </collision>
+      <pose>0.069 -0.047 0.107 0 0 0</pose>
+      <sensor name="intel_realsense_r200_depth" type="depth">
+        <always_on>1</always_on>
+        <update_rate>5</update_rate>
+        <pose>0.064 -0.047 0.107 0 0 0</pose>
+        <gz_frame_id>camera_depth_frame</gz_frame_id>
+        <camera name="realsense_depth_camera">
+          <horizontal_fov>1.047</horizontal_fov>
+          <image>
+            <width>320</width>
+            <height>240</height>
+          </image>
+          <lens>
+            <projection>
+              <!-- focal_length = fx = fy = width / ( 2 * tan (hfov / 2 ) ) -->
+              <!-- tx = hackBaseline * focal_length -->
+              <tx>19.4</tx>
+            </projection>
+          </lens>
+          <depth_camera>
+            <clip>
+              <near>0.001</near>
+              <far>5.0</far>
+            </clip>
+          </depth_camera>
+        </camera>
+      </sensor>
+    </link>
+    <joint name="base_joint" type="fixed">
+      <parent>base_footprint</parent>
+      <child>base_link</child>
+      <pose>0.0 0.0 0.010 0 0 0</pose>
+    </joint>
+    <joint name="wheel_left_joint" type="revolute">
+      <parent>base_link</parent>
+      <child>wheel_left_link</child>
+      <pose>0.0 0.144 0.023 -1.57 0 0</pose>
+      <axis>
+        <xyz>0 0 1</xyz>
+      </axis>
+    </joint>
+    <joint name="wheel_right_joint" type="revolute">
+      <parent>base_link</parent>
+      <child>wheel_right_link</child>
+      <pose>0.0 -0.144 0.023 -1.57 0 0</pose>
+      <axis>
+        <xyz>0 0 1</xyz>
+      </axis>
+    </joint>
+    <joint name="caster_back_right_joint" type="ball">
+      <parent>base_link</parent>
+      <child>caster_back_right_link</child>
+    </joint>
+    <joint name="caster_back_left_joint" type="ball">
+      <parent>base_link</parent>
+      <child>caster_back_left_link</child>
+    </joint>
+    <joint name="lidar_joint" type="fixed">
+      <parent>base_link</parent>
+      <child>base_scan</child>
+      <pose>-0.064 0 0.121 0 0 0</pose>
+      <axis>
+        <xyz>0 0 1</xyz>
+      </axis>
+    </joint>
+    <joint name="camera_joint" type="fixed">
+      <parent>base_link</parent>
+      <child>camera_link</child>
+      <pose>0.064 -0.065 0.094 0 0 0</pose>
+      <axis>
+        <xyz>0 0 1</xyz>
+      </axis>
+    </joint>
+    <plugin filename="gz-sim-diff-drive-system" name="gz::sim::systems::DiffDrive">
+      <left_joint>wheel_left_joint</left_joint>
+      <right_joint>wheel_right_joint</right_joint>
+      <wheel_separation>0.287</wheel_separation>
+      <wheel_radius>0.033</wheel_radius>
+      <max_linear_acceleration>1</max_linear_acceleration>
+      <min_linear_acceleration>-1</min_linear_acceleration>
+      <max_angular_acceleration>2</max_angular_acceleration>
+      <min_angular_acceleration>-2</min_angular_acceleration>
+      <max_linear_velocity>0.46</max_linear_velocity>
+      <min_linear_velocity>-0.46</min_linear_velocity>
+      <max_angular_velocity>1.9</max_angular_velocity>
+      <min_angular_velocity>-1.9</min_angular_velocity>
+      <topic>/cmd_vel</topic>
+      <odom_topic>/odom</odom_topic>
+      <tf_topic>/tf</tf_topic>
+      <frame_id>odom</frame_id>
+      <child_frame_id>base_footprint</child_frame_id>
+      <odom_publish_frequency>30</odom_publish_frequency>
+    </plugin>
+    <plugin filename="gz-sim-joint-state-publisher-system" name="gz::sim::systems::JointStatePublisher">
+      <joint_name>wheel_left_joint</joint_name>
+      <joint_name>wheel_right_joint</joint_name>
+      <topic>/joint_states</topic>
+      <update_rate>30</update_rate>
+    </plugin>
+  </model>
+</sdf>
+ -x -2.00 -y -0.50 -z 0.01 -R 0.00 -P 0.00 -Y 0.00 --ros-args -r __ns:=/'].
+[lifecycle_manager-19] [INFO] [1792349868.726255370] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[lifecycle_manager-19] [INFO] [1792349868.726338400] [lifecycle_manager_navigation]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_navigation)
+[collision_monitor-17] [INFO] [1792349868.726261869] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[collision_monitor-17] [INFO] [1792349868.726339398] [collision_monitor]: Running Nav2 LifecycleNode rcl preshutdown (collision_monitor)
+[collision_monitor-17] [INFO] [1792349868.726378087] [collision_monitor]: Destroying bond (collision_monitor) to lifecycle manager.
+[opennav_docking-18] [INFO] [1792349868.726274510] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[opennav_docking-18] [INFO] [1792349868.726339419] [docking_server]: Running Nav2 LifecycleNode rcl preshutdown (docking_server)
+[opennav_docking-18] [INFO] [1792349868.726378569] [docking_server]: Destroying bond (docking_server) to lifecycle manager.
+[waypoint_follower-15] [INFO] [1792349868.726274570] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[waypoint_follower-15] [INFO] [1792349868.726339359] [waypoint_follower]: Running Nav2 LifecycleNode rcl preshutdown (waypoint_follower)
+[waypoint_follower-15] [INFO] [1792349868.726378559] [waypoint_follower]: Destroying bond (waypoint_follower) to lifecycle manager.
+[bt_navigator-14] [INFO] [1792349868.726305010] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[bt_navigator-14] [INFO] [1792349868.726374119] [bt_navigator]: Running Nav2 LifecycleNode rcl preshutdown (bt_navigator)
+[bt_navigator-14] [INFO] [1792349868.726409899] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.
+[behavior_server-13] [INFO] [1792349868.726308670] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[behavior_server-13] [INFO] [1792349868.726390869] [behavior_server]: Running Nav2 LifecycleNode rcl preshutdown (behavior_server)
+[behavior_server-13] [INFO] [1792349868.726427598] [behavior_server]: Destroying bond (behavior_server) to lifecycle manager.
+[smoother_server-10] [INFO] [1792349868.726318520] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[smoother_server-10] [INFO] [1792349868.726374399] [smoother_server]: Running Nav2 LifecycleNode rcl preshutdown (smoother_server)
+[smoother_server-10] [INFO] [1792349868.726426269] [smoother_server]: Cleaning up
+[planner_server-11] [INFO] [1792349868.726325444] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[planner_server-11] [INFO] [1792349868.726389314] [planner_server]: Running Nav2 LifecycleNode rcl preshutdown (planner_server)
+[planner_server-11] [INFO] [1792349868.726424523] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[INFO] [lifecycle_manager-19]: sending signal 'SIGINT' to process[lifecycle_manager-19]
+[INFO] [opennav_docking-18]: sending signal 'SIGINT' to process[opennav_docking-18]
+[INFO] [collision_monitor-17]: sending signal 'SIGINT' to process[collision_monitor-17]
+[INFO] [velocity_smoother-16]: sending signal 'SIGINT' to process[velocity_smoother-16]
+[INFO] [waypoint_follower-15]: sending signal 'SIGINT' to process[waypoint_follower-15]
+[INFO] [bt_navigator-14]: sending signal 'SIGINT' to process[bt_navigator-14]
+[INFO] [behavior_server-13]: sending signal 'SIGINT' to process[behavior_server-13]
+[INFO] [route_server-12]: sending signal 'SIGINT' to process[route_server-12]
+[ERROR] [velocity_smoother-16]: process has died [pid 5894, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_velocity_smoother/velocity_smoother --ros-args --log-level info --ros-args -r __node:=velocity_smoother -p use_sim_time:=True --params-file /tmp/launch_params_48n2mgiv -r /tf:=tf -r /tf_static:=tf_static -r cmd_vel:=cmd_vel_nav'].
+[INFO] [planner_server-11]: sending signal 'SIGINT' to process[planner_server-11]
+[INFO] [smoother_server-10]: sending signal 'SIGINT' to process[smoother_server-10]
+[ERROR] [opennav_docking-18]: process has died [pid 5896, exit code -2, cmd '/opt/ros/jazzy/lib/opennav_docking/opennav_docking --ros-args --log-level info --ros-args -r __node:=docking_server -p use_sim_time:=True --params-file /tmp/launch_params_48n2mgiv -r /tf:=tf -r /tf_static:=tf_static'].
+[INFO] [controller_server-9]: sending signal 'SIGINT' to process[controller_server-9]
+[ERROR] [bt_navigator-14]: process has died [pid 5881, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_bt_navigator/bt_navigator --ros-args --log-level info --ros-args -r __node:=bt_navigator -p use_sim_time:=True --params-file /tmp/launch_params_48n2mgiv -r /tf:=tf -r /tf_static:=tf_static'].
+[INFO] [lifecycle_manager-8]: sending signal 'SIGINT' to process[lifecycle_manager-8]
+[ERROR] [route_server-12]: process has died [pid 5865, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_route/route_server --ros-args --log-level info --ros-args -r __node:=route_server -p use_sim_time:=True --params-file /tmp/launch_params_48n2mgiv -r /tf:=tf -r /tf_static:=tf_static'].
+[INFO] [amcl-7]: sending signal 'SIGINT' to process[amcl-7]
+[INFO] [map_server-6]: sending signal 'SIGINT' to process[map_server-6]
+[ERROR] [waypoint_follower-15]: process has died [pid 5887, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_waypoint_follower/waypoint_follower --ros-args --log-level info --ros-args -r __node:=waypoint_follower -p use_sim_time:=True --params-file /tmp/launch_params_48n2mgiv -r /tf:=tf -r /tf_static:=tf_static'].
+[ERROR] [smoother_server-10]: process has died [pid 5860, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_smoother/smoother_server --ros-args --log-level info --ros-args -r __node:=smoother_server -p use_sim_time:=True --params-file /tmp/launch_params_48n2mgiv -r /tf:=tf -r /tf_static:=tf_static'].
+[ERROR] [behavior_server-13]: process has died [pid 5868, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_behaviors/behavior_server --ros-args --log-level info --ros-args -r __node:=behavior_server -p use_sim_time:=True --params-file /tmp/launch_params_48n2mgiv -r /tf:=tf -r /tf_static:=tf_static -r cmd_vel:=cmd_vel_nav'].
+[ERROR] [collision_monitor-17]: process has died [pid 5895, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_collision_monitor/collision_monitor --ros-args --log-level info --ros-args -r __node:=collision_monitor -p use_sim_time:=True --params-file /tmp/launch_params_48n2mgiv -r /tf:=tf -r /tf_static:=tf_static'].
+[INFO] [robot_state_publisher-5]: sending signal 'SIGINT' to process[robot_state_publisher-5]
+[ERROR] [planner_server-11]: process has died [pid 5864, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_planner/planner_server --ros-args --log-level info --ros-args -r __node:=planner_server -p use_sim_time:=True --params-file /tmp/launch_params_48n2mgiv -r /tf:=tf -r /tf_static:=tf_static'].
+[INFO] [gz-4]: sending signal 'SIGINT' to process[gz-4]
+[ERROR] [lifecycle_manager-8]: process has died [pid 5814, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_lifecycle_manager/lifecycle_manager --ros-args --log-level info --ros-args -r __node:=lifecycle_manager_localization -p use_sim_time:=True --params-file /tmp/launch_params_bbatfw2a --params-file /tmp/launch_params_mx9i0sgl'].
+[ERROR] [amcl-7]: process has died [pid 5813, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_amcl/amcl --ros-args --log-level info --ros-args -r __node:=amcl -p use_sim_time:=True --params-file /tmp/launch_params_x5zth1at -r /tf:=tf -r /tf_static:=tf_static'].
+[ERROR] [map_server-6]: process has died [pid 5812, exit code -2, cmd '/opt/ros/jazzy/lib/nav2_map_server/map_server --ros-args --log-level info --ros-args -r __node:=map_server -p use_sim_time:=True --params-file /tmp/launch_params_x5zth1at --params-file /tmp/launch_params_k336lk08 -r /tf:=tf -r /tf_static:=tf_static'].
+[ERROR] [robot_state_publisher-5]: process has died [pid 5811, exit code -2, cmd '/opt/ros/jazzy/lib/robot_state_publisher/robot_state_publisher --ros-args -r __node:=robot_state_publisher -r __ns:=/ --params-file /tmp/launch_params_1rgwg_vw -r /tf:=tf -r /tf_static:=tf_static'].
+[INFO] [parameter_bridge-2]: sending signal 'SIGINT' to process[parameter_bridge-2]
+[robot_state_publisher-5] [INFO] [1792349868.726418389] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[map_server-6] [INFO] [1792349868.726469248] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[map_server-6] [INFO] [1792349868.726528907] [map_server]: Running Nav2 LifecycleNode rcl preshutdown (map_server)
+[map_server-6] [INFO] [1792349868.726574137] [map_server]: Deactivating
+[map_server-6] [INFO] [1792349868.726594517] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1792349868.726526298] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[lifecycle_manager-8] [INFO] [1792349868.726579377] [lifecycle_manager_localization]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_localization)
+[lifecycle_manager-8] [INFO] [1792349868.726606927] [lifecycle_manager_localization]: [34m[1mTerminating bond timer...[0m[0m
+[route_server-12] [INFO] [1792349868.727063082] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[route_server-12] [INFO] [1792349868.727122121] [route_server]: Running Nav2 LifecycleNode rcl preshutdown (route_server)
+[route_server-12] [INFO] [1792349868.727158721] [route_server]: Destroying bond (route_server) to lifecycle manager.
+[route_server-12] [INFO] [1792349868.728857892] [route_server]: Destroying
+[amcl-7] [INFO] [1792349868.727075862] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[amcl-7] [INFO] [1792349868.727166821] [amcl]: Running Nav2 LifecycleNode rcl preshutdown (amcl)
+[amcl-7] [INFO] [1792349868.727264950] [amcl]: Deactivating
+[amcl-7] [INFO] [1792349868.727286499] [amcl]: Destroying bond (amcl) to lifecycle manager.
+[amcl-7] [INFO] [1792349868.737990416] [amcl]: Cleaning up
+[controller_server-9] [INFO] [1792349868.727238988] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[controller_server-9] [INFO] [1792349868.727303257] [controller_server]: Running Nav2 LifecycleNode rcl preshutdown (controller_server)
+[controller_server-9] [INFO] [1792349868.727354497] [controller_server]: Cleaning up
+[controller_server-9] [INFO] [1792349868.733577802] [MPPIController]: Cleaned up MPPI Controller: FollowPath
+[controller_server-9] [INFO] [1792349868.734756114] [local_costmap.local_costmap]: Cleaning up
+[parameter_bridge-2] [INFO] [1792349868.727442787] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[collision_monitor-17] [INFO] [1792349868.728115259] [collision_monitor]: Destroying
+[velocity_smoother-16] [INFO] [1792349868.728150524] [velocity_smoother]: Destroying
+[bt_navigator-14] [INFO] [1792349868.728184050] [bt_navigator]: Destroying
+[behavior_server-13] [INFO] [1792349868.728359148] [behavior_server]: Destroying
+[opennav_docking-18] [INFO] [1792349868.728544376] [docking_server]: Destroying
+[planner_server-11] [INFO] [1792349868.731207817] [global_costmap.global_costmap]: Destroying
+[smoother_server-10] [INFO] [1792349868.732937848] [smoother_server]: Destroying bond (smoother_server) to lifecycle manager.
+[waypoint_follower-15] [INFO] [1792349868.733506451] [waypoint_follower]: Destroying
+[smoother_server-10] [INFO] [1792349868.740531174] [smoother_server]: Destroying
+[map_server-6] [INFO] [1792349868.738160249] [map_server]: Cleaning up
+[map_server-6] [INFO] [1792349868.738201729] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[amcl-7] [INFO] [1792349868.742697666] [amcl]: Destroying bond (amcl) to lifecycle manager.
+[map_server-6] [INFO] [1792349868.756800728] [map_server]: Destroying
+[lifecycle_manager-8] [INFO] [1792349868.756805386] [lifecycle_manager_localization]: Destroying lifecycle_manager_localization
+[amcl-7] [INFO] [1792349868.757867245] [amcl]: Destroying
+[controller_server-9] [INFO] [1792349868.775901471] [controller_server]: Destroying bond (controller_server) to lifecycle manager.
+[controller_server-9] [INFO] [1792349868.777366469] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[controller_server-9] [INFO] [1792349868.780042149] [local_costmap.local_costmap]: Destroying
+[parameter_bridge-2] [INFO] [1792349868.787384058] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[controller_server-9] [INFO] [1792349868.788697098] [controller_server]: Destroying
+[INFO] [gz-4]: process has finished cleanly [pid 5810]
+[INFO] [parameter_bridge-2]: process has finished cleanly [pid 5808]
+[INFO] [controller_server-9]: process has finished cleanly [pid 5815]
+[ERROR] [lifecycle_manager-19]: process[lifecycle_manager-19] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+[INFO] [lifecycle_manager-19]: sending signal 'SIGTERM' to process[lifecycle_manager-19]
+[ERROR] [lifecycle_manager-19]: process[lifecycle_manager-19] failed to terminate '10.0' seconds after receiving 'SIGTERM', escalating to 'SIGKILL'
+[INFO] [lifecycle_manager-19]: sending signal 'SIGKILL' to process[lifecycle_manager-19]
+[ERROR] [lifecycle_manager-19]: process has died [pid 5898, exit code -9, cmd '/opt/ros/jazzy/lib/nav2_lifecycle_manager/lifecycle_manager --ros-args --log-level info --ros-args -r __node:=lifecycle_manager_navigation -p use_sim_time:=True --params-file /tmp/launch_params_ak328l9m --params-file /tmp/launch_params_b9iykses'].

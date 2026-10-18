@@ -1,0 +1,48 @@
+[INFO] [1792349813.001183847] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792349814.011610716] [basic_navigator]: amcl/get_state service not available, waiting...
+[INFO] [1792349816.764631444] [basic_navigator]: Setting initial pose
+[INFO] [1792349816.765041763] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792349816.765456870] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792349816.765997079] [basic_navigator]: Setting initial pose
+[INFO] [1792349816.766527972] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792349816.767447257] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792349816.767791233] [basic_navigator]: Setting initial pose
+[INFO] [1792349816.768153745] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792349816.768533601] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792349816.769321479] [basic_navigator]: Setting initial pose
+[INFO] [1792349816.770289157] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792349816.770680453] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792349816.771362382] [basic_navigator]: Setting initial pose
+[INFO] [1792349816.771680792] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792349816.772110404] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792349816.773341513] [basic_navigator]: Setting initial pose
+[INFO] [1792349816.773607273] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792349816.773907180] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792349816.776606493] [basic_navigator]: Setting initial pose
+[INFO] [1792349816.776985244] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792349816.777480376] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792349816.779406381] [basic_navigator]: Setting initial pose
+[INFO] [1792349816.779792391] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792349816.780204573] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792349816.782375344] [basic_navigator]: Setting initial pose
+[INFO] [1792349816.782773779] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792349816.783361047] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792349816.785458477] [basic_navigator]: Setting initial pose
+[INFO] [1792349816.785745817] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792349816.786048421] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792349816.788404418] [basic_navigator]: Setting initial pose
+[INFO] [1792349816.788742816] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792349816.789131966] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1792349816.791353838] [basic_navigator]: Setting initial pose
+[INFO] [1792349816.791616609] [basic_navigator]: Publishing Initial Pose
+[INFO] [1792349816.791944303] [basic_navigator]: Waiting for amcl_pose to be received
+Traceback (most recent call last):
+  File "/tmp/robot-failure-lab-02-main-v2-20261018/source/trial.py", line 173, in <module>
+    main()
+  File "/tmp/robot-failure-lab-02-main-v2-20261018/source/trial.py", line 86, in main
+    nav.waitUntilNav2Active()
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/nav2_simple_commander/robot_navigator.py", line 501, in waitUntilNav2Active
+    self._waitForNodeToActivate(navigator)
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/nav2_simple_commander/robot_navigator.py", line 792, in _waitForNodeToActivate
+    time.sleep(2)
+KeyboardInterrupt

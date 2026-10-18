@@ -1,0 +1,33 @@
+{
+  "experiment": "Robot Failure Lab 02",
+  "repeats": 3,
+  "trigger": ">=3 sim seconds since goal submission, translating >=0.05 m/s for >=0.3 s, fresh odometry",
+  "change": "Drop newly received scans for [trigger, trigger+2s); no buffering or replay. Control forwards all scans.",
+  "motion_stop": "Odom speed <=0.01 m/s and |yaw rate| <=0.03 rad/s for >=0.3s; samples <=0.15s apart",
+  "motion_resume": "After a measured stop, odom translation >=0.05 m/s for >=0.3s after window ends",
+  "task_timeout_sim_s": 90,
+  "seeds": "Gazebo seed 101+repeat_index, matched within each pair; AMCL and scheduling NOT controlled. Not deterministic pairs.",
+  "order": "Normal then blackout for odd pairs; blackout then normal for even pairs",
+  "collision_monitor_source_timeout_s": 1.0,
+  "scope": "Exploratory static simulation. No collision/obstacle-appearance metric, physical validation, or Vektor integration.",
+  "command": [
+    "/mnt/c/Users/maxle/OneDrive/Documents/robotics-space/startup-kb/code/robot-failure-lab/experiment02/run.py",
+    "/tmp/robot-failure-lab-02-main-20261018",
+    "--repeats",
+    "3",
+    "--domain",
+    "188"
+  ],
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "platform": "6.6.87.2-microsoft-standard-WSL2",
+  "source_sha256": {
+    "trial.py": "11cacfdec404fd305535dba46b0a6d5faf3493100b500333292c567775ae9c0a",
+    "upstream_tb3_simulation_launch.txt": "cb65906827c9897100512d64ee1ac7537fe859e3fc29fcc96aec8119bd7bebf2",
+    "core.py": "6181fa638d0479224551df036cee7de634d893f7261bb85f1e7f3ec172ec0035",
+    "report.py": "d84572b23e3c7280d3170b1900ade71bb4f2b4a59a6d06607fdbbd02c492373a",
+    "seeded_simulation_launch.py": "6b4443dd2ba90821fb44bbae45ef42ab8d4df34aaefb97af4b8a810d1fc95aca",
+    "run.py": "355d6d754ba738fad3a13b54106f26cdefc209b5fe3960d3ce95b1e6ed06417d",
+    "README.md": "e20433310fc33cd35e7c615d84e90ef7e1b3c277f7059bcfb1b42424a2bffbe2",
+    "test_core.py": "e097b74720adbab194336a737f2d16605a92ed8b1176708c365051449dc224f1"
+  }
+}
